@@ -6,7 +6,7 @@ from aiopg.connection import Connection
 class Student(NamedTuple):
     id: int
     name: str
-
+#qwerty
     @classmethod
     def from_raw(cls, raw: tuple):
         return cls(*raw) if raw else None
